@@ -11,6 +11,8 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/8f13d41410.js" crossorigin="anonymous"></script>
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -40,7 +42,7 @@
                 <a class="nav-link active text-light" aria-current="page" href="#">Contact</a>
               </li>
               <li>
-                <a class="btn btn-danger ms-5" href="#">Login</a>
+                <a class="btn link-btn text-light ms-5" href="#">Login</a>
               </li>
             </ul>
           </div>
@@ -50,13 +52,13 @@
     <!-- header slide -->
     <section class="container mb-5">
       <div class="row d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <small>Computer-controlled digital transistorized with electronic advance</small>
           <h1>Honda CBR 300R</h1>
           <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
             velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn text-light link-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Purchase
           </button>
 
@@ -71,14 +73,14 @@
                   <h1>$10,000</h1>
                 </div>
                 <div class="modal-footer justify-content-lg-evenly">
-                  <button type="button" class="btn btn-primary p-5 pt-1 pb-1">Buy Now</button>
-                  <button type="button" class="btn btn-danger p-5 pt-1 pb-1">Add to Card</button>
+                  <button type="button" class="btn link-btn text-light p-5 pt-1 pb-1">Buy Now</button>
+                  <button type="button" class="btn link-btn text-light p-5 pt-1 pb-1">Add to Card</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6  col-md-12 col-sm-12">
           <img src="images/header-bike.png" width="100%" alt="">
         </div>
       </div>
@@ -89,14 +91,14 @@
     <section class="container mb-5">
       <div class="mb-5">
         <h1 class="d-flex justify-content-center">Fetured Bikes 2021</h1>
-        <p class="d-flex justify-content-center">Best bike collection</p>
+        <p class="d-flex justify-content-center"><span class="orange">Best bike collection</span></p>
       </div>
       <div>
         <div class="row">
-          <div style="filter: grayscale(100); " class="col-4 img-fluid"><img src="images/feature-bike.jpg" alt=""
+          <div style="filter: grayscale(100); " class="col-lg-4   col-md-12 col-sm-12 img-fluid"><img src="images/feature-bike.jpg" alt=""
               height="243" width="288"></div>
-          <div class="col-4 img-fluid"><img src="images/feature-bike.jpg" alt="" height="243" width="288"></div>
-          <div style="filter: grayscale(100); " class="col-4 img-fluid"><img src="images/feature-bike.jpg" alt=""
+          <div class="col-lg-4  col-md-12 col-sm-12 img-fluid"><img src="images/feature-bike.jpg" alt="" height="243" width="288"></div>
+          <div style="filter: grayscale(100); " class="col-lg-4  col-md-12 col-sm-12 img-fluid"><img src="images/feature-bike.jpg" alt=""
               height="243" width="288"></div>
         </div>
       </div>
@@ -106,36 +108,37 @@
     <section class="container mb-5">
       <h1 class="d-flex justify-content-center mb-3">latest News</h1>
       <div class="row">
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/bike-1.png" class="card-img-top" alt="...">
+        <div class="col-lg-4  col-md-12 col-sm-12">
+          <div class="card">
+            <img src="images/bike-1.png"  class="card-img-top" width="337px" height="256px" alt="...">
             <div class="card-body">
               <h4>Ducati XDIAVEL S-73</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <button class="btn btn-danger">Read More</button>
+              <button class="btn link-btn text-light">Read More</button>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/bike-2.png" class="card-img-top" alt="...">
+        <div class="col-lg-4  col-md-12 col-sm-12">
+          <div class="card">
+            <img src="images/bike-2.png"  class="card-img-top" width="337px" height="256px" alt="...">
             <div class="card-body">
-              <h4>Motorcycles& Scooters</h4>
+              <h5 style="font-size: 27px;" >Motorcycles & Scooters</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <button class="btn border-danger">Read More</button>
+              <button class="btn border-danger text-danger">Read More</button>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/bike-3.png" class="card-img-top" alt="...">
+        <div class="col-lg-4  col-md-12 col-sm-12">
+          <div class="card">
+            <img src="images/bike-3.png" class="card-img-top" alt="..."
+            width="337px" height="256px">
             <div class="card-body">
               <h4>2021 Honda CBR500R</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <button class="btn  border-danger">Read More</button>
+              <button class="btn  border-danger text-danger">Read More</button>
             </div>
           </div>
         </div>
@@ -144,10 +147,13 @@
     <!-- Clients part -->
     <section class="container mb-5">
       <!-- clients title -->
-      <h1 class="d-flex justify-content-center mb-3">Happy Clients says</h1>\
+      <div class=" d-flex justify-content-center mb-5">
+        <h1>Happy  <span class="orange"> Clients says</span></h1>
+      </div>
+      
       <!-- clients info -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+      <div class="row row-cols-1 row-col-sm-12 row-col-md-12  row-cols-lg-3 g-4">
+        <div class="col col-lg-4 col-md-12">
           <div class="card h-100 p-5 text-md-center">
             <img src="images/user-1.png" class="card-img-top" alt="..." width="149px" height="149px">
             <div class="card-body">
@@ -156,10 +162,13 @@
                 to work to reach your financial
                 goal for the month and year.</p>
               <div>
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                  class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="far fa-star rating"></i>
               </div><br>
-              <h6>Regina Miles</h6>
+              <h6 class="miles">Regina Miles</h6>
               <h6>Banker</h6>
             </div>
           </div>
@@ -173,10 +182,13 @@
                 to work to reach your financial
                 goal for the month and year.</p>
               <div>
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                  class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="far fa-star rating"></i>
               </div><br>
-              <h6>Regina Miles</h6>
+              <h6 class="miles">Regina Miles</h6>
               <h6>Banker</h6>
             </div>
           </div>
@@ -190,10 +202,13 @@
                 to work to reach your financial
                 goal for the month and year.</p>
               <div>
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                  class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="fas fa-star rating"></i>
+                <i class="far fa-star rating"></i>
               </div><br>
-              <h6>Regina Miles</h6>
+              <h6 class="miles">Regina Miles</h6>
               <h6>Banker</h6>
             </div>
           </div>
@@ -203,12 +218,14 @@
     <!-- Question part -->
     <section class="container mb-5">
       <!-- FQ title -->
-      <h1 class="mb-5 d-flex justify-content-center">Frequently Asked Questions</h1>
+      <div  class="mb-5 d-flex justify-content-center">
+        <h1>Frequently Asked  <span class="orange"> Questions</span></h1>
+      </div>
       <div class="row">
-        <div class="col-5">
-          <img src="images/faq.png" alt="" width="431px" height="423px">
+        <div class="col-lg-5  col-md-12 col-sm-12">
+          <img src="images/faq.png" alt="" width="100%px" height="423px">
         </div>
-        <div class="col-7">
+        <div class="col-lg-7  col-md-12 col-sm-12">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="headingone">
@@ -282,16 +299,16 @@
     </section>
     <!-- Review part -->
     <section class="container">
-      <h1 class="d-flex justify-content-center mb-3">CBR Review</h1>
+      <h1 class="d-flex justify-content-center mb-3"><span class="orange">CBR Review</span></h1>
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6  col-md-12 col-sm-12">
           <h1>Honda CBR 300R Motorcycle Experience Road Test
           </h1>
           <p>Motorcycle Experience and Dave Hatch head to the Roebling Road Raceway in Savannah Georgia for the 2015
             Honda Press Launch. Dave enlists the help of track expert Colin Fraser to review Honda's CBR300R.</p>
         </div>
-        <div class="col-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/T9_A6TBezpY" title="YouTube video player"
+        <div class="col-lg-6  col-md-12 col-sm-12">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/T9_A6TBezpY" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -305,19 +322,19 @@
         <p class="d-flex text-md-center justify-content-center">Step up into the world of convenience and book your
           favourite Honda car online. All it takes is a few simple steps. Choose your car model, select your dealership,
           share your details and make the payment. It's that easy!</p>
-        <h3 class="d-flex justify-content-center">HOW TO BOOK</h3>
+        <h3 class="d-flex justify-content-center"><span class="orange">HOW TO BOOK</span></h3>
         <h1 class="d-flex justify-content-center"><strong><i class="fas fa-angle-down"></i></strong></h1>
       </div>
       <div class="d-flex justify-content-center">
-        <img src="images/desktop-1.jpg" alt="">
+        <img width="100%" src="images/desktop-1.jpg" alt="">
       </div>
-      <h4 class="d-flex justify-content-center mt-5"><button class="btn btn-danger">BOOK NOW</button></h4>
+      <h4 class="d-flex justify-content-center mt-5"><button class="btn link-btn text-light">BOOK NOW</button></h4>
     </section>
   </main>
   <!-- this part of footer -->
-  <footer class=" bg-dark text-white">
+  <footer class=" bg-dark text-white m-auto">
     <div class="row">
-      <div class="col-lg-7 p-5 ps-5 pt-lg-5">
+      <div class="col-lg-7  col-md-12 col-sm-12 p-5 ps-5 pt-lg-5">
         <div>
           <a class="text-white text-decoration-none me-5" href="">Download Now</a>
           <a class="text-white text-decoration-none" href="">License</a>
@@ -334,9 +351,9 @@
           <small>© 2020 bike. All rights reserved</small>
         </div>
       </div>
-      <div class="col-lg-5 p-5 ">
+      <div class="col-lg-5  col-md-12 col-sm-12 p-5 ">
         <h2>Get the App</h2>
-        <div class="d-flex border border-info w-50 h-25 p-2 align-items-center mb-3">
+        <div class="d-flex border border-info w-75 h-25 p-2 align-items-center mb-3">
           <div class="mb-5">
             <i class="fab fa-apple fs-1 p-1 mt-5"></i>
           </div>
@@ -346,7 +363,7 @@
           </div>
         </div>
         <div>
-          <div style="height: 80px;" class="d-flex border border-info w-50  align-items-center">
+          <div style="height: 20%;" class="d-flex border p-2 border-info w-75  align-items-center">
             <div class="mb-5">
               <i class="fab fa-google-play fs-1  mt-5"></i>
             </div>
